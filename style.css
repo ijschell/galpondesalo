@@ -97,26 +97,31 @@ p {
 h1 {
   font-size: 2.5em;
   margin-bottom: 60px;
+  font-family: "BlackBeard";
 }
 
 h2 {
   font-size: 2.2em;
   margin-bottom: 60px;
+  font-family: "BlackBeard";
 }
 
 h3 {
   font-size: 1.9em;
   margin-bottom: 60px;
+  font-family: "BlackBeard";
 }
 
 h4 {
   font-size: 1.5em;
   margin-bottom: 60px;
+  font-family: "BlackBeard";
 }
 
 h5 {
   font-size: 1.3em;
   margin-bottom: 60px;
+  font-family: "BlackBeard";
 }
 
 .small-text {
@@ -228,6 +233,7 @@ div.sub-section {
 body {
   background-color: #242325;
   color: #fff;
+  font-family: "Brandon Grotesque Regular";
 }
 body a {
   color: #fff;
@@ -241,6 +247,13 @@ body a:hover {
 
 header {
   height: 150px;
+}
+header .menu-principal-container #menu-principal li a {
+  font-family: "BlackBeard";
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

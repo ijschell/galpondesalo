@@ -1,9 +1,11 @@
 $bg_black: #242325;
 $color_font: #fff;
+
 @include responsive();
 body{
   background-color: $bg_black;
   color: $color_font;
+  font-family: $fontRegular;
   a{
     color: $color-link;
     text-decoration: underline;

@@ -1,3 +1,16 @@
 header{
   height: 150px;
+  .menu-principal-container{
+    #menu-principal{
+      li{
+        a{
+          font-family: $fontBlackBeard;
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
