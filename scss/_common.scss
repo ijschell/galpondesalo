@@ -1,5 +1,5 @@
-$bg_black: #242325;
-$color_font: #fff;
+$bg_black: #fff;
+$color_font: #333;
 
 @include responsive();
 body{
@@ -15,4 +15,31 @@ body{
       text-decoration: none;
     }
   }
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side{
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left-side{
+  left: 0;
+}
+.right-side{
+  right: 0;
+}
+
+.container-fluid{
+  width: 100%;
+  max-width: 1050px;
 }

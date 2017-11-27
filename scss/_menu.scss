@@ -1,0 +1,155 @@
+#elMenu{
+    background-color: #151418;
+    background-image: url('./images/bg_menu.png');
+    background-repeat: repeat-y;
+    background-position: center top;
+    .plato-dia-icon{
+      background-image: url('./images/plato_del_dia_icon.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: block;
+      margin: auto;
+      width: 142px;
+      height: 91px;
+      margin-bottom: 20px;
+    }
+    .plato-dia-content{
+      position: relative;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      margin-bottom: 50px;
+      .border-top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 7px;
+        background-image: url('./images/plato_del_dia_content_border_top.png');
+        background-repeat: repeat-x;
+      }
+      .border-bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 8px;
+        background-image: url('./images/plato_del_dia_content_border_bottom.png');
+        background-repeat: repeat-x;
+      }
+      .border-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background-image: url('./images/plato_del_dia_content_border_left.png');
+        background-repeat: repeat-y;
+      }
+      .border-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 6px;
+        height: 100%;
+        background-image: url('./images/plato_del_dia_content_border_right.png');
+        background-repeat: repeat-y;
+      }
+      h3{
+        font-size: 27px;
+        text-transform: uppercase;
+        display: table;
+        padding: 0 73px;
+        margin: 0 auto 26px auto;
+        span{
+           width: 58px;
+           height: 21px;
+        }
+      }
+      .plato-dia-description{
+        p{
+          font-size: 24px;
+          line-height: 23px;
+          font-family: $fontBlackBeard;
+          strong{
+            font-weight: initial;
+            font-size: 31px;
+            line-height: 31px;
+          }
+          &:last-child{
+            margin: 0;
+          }
+        }
+      }
+    }
+    .card-menu{
+      margin-bottom: 30px;
+      h3{
+        position: relative;
+        display: table;
+        margin-bottom: 25px;
+        span{
+          color: #151418;
+          position: relative;
+          z-index: 2;
+          font-size: 26px;
+          padding: 0 20px;
+          text-transform: uppercase;
+        }
+        &::after{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: #fff;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          transform: rotate(-1deg);
+        }
+        &.style_1{
+          &::after{
+            transform: rotate(2deg);
+          }
+        }
+        &.style_2{
+          &::after{
+            transform: rotate(-2deg);
+          }
+        }
+        &.style_3{
+          &::after{
+            transform: rotate(1deg);
+          }
+        }
+      }
+      .content-menu{
+        ul{
+          li{
+            color: #fff;
+            font-size: 19px;
+            font-family: $fontMedium;
+            margin-bottom: 15px;
+            background-image: url('./images/bg_menu_list.png');
+            background-repeat: repeat-x;
+            background-position: left center;
+            position: relative;
+            strong{
+              background: #151418;
+              padding: 0 0 0 12px;
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+            }
+            em{
+              font-style:normal;
+              background: #1f1d20;
+              padding: 0 12px 0 0;
+            }
+          }
+        }
+      }
+    }
+}

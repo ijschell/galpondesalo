@@ -1,259 +1,412 @@
 @charset "UTF-8";
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
+  *:focus {
+    outline: initial !important; }
 
 html, body {
-  height: 100%;
-}
+  height: 100%; }
 
 h1, h2, h3, h4, h5 {
   font-weight: normal;
-}
+  margin: 0;
+  position: relative; }
 
 a:visited {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:focus {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a:focus, :focus {
-  outline: 1px dotted #000;
-}
+  outline: 1px dotted #000; }
 
 a:hover, a:active {
-  outline: none;
-}
+  outline: none; }
 
 ol li, ul ol li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ul li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ul ul li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ul ul ul li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ol ol li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 ol ol ol li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 sub {
   line-height: 0;
   vertical-align: sub;
-  font-size: smaller;
-}
+  font-size: smaller; }
 
 sup {
   line-height: 0;
   vertical-align: super;
-  font-size: smaller;
-}
+  font-size: smaller; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/*m├írgenes*/
+/*márgenes*/
 body {
   font-size: 16px;
-  line-height: 24px;
-}
+  line-height: 24px; }
 
 a {
-  color: #fff;
-}
+  color: #fff; }
 
 a:hover {
   text-decoration: underline;
-  color: #fff;
-}
+  color: #fff; }
 
 p {
   font-size: 16px;
   margin-bottom: 40px;
-  line-height: 24px;
-}
+  line-height: 24px; }
 
 h1 {
   font-size: 2.5em;
   margin-bottom: 60px;
-  font-family: "BlackBeard";
-}
+  font-family: "BlackBeard"; }
 
 h2 {
   font-size: 2.2em;
   margin-bottom: 60px;
-  font-family: "BlackBeard";
-}
+  font-family: "BlackBeard"; }
 
 h3 {
   font-size: 1.9em;
   margin-bottom: 60px;
-  font-family: "BlackBeard";
-}
+  font-family: "BlackBeard"; }
 
 h4 {
   font-size: 1.5em;
   margin-bottom: 60px;
-  font-family: "BlackBeard";
-}
+  font-family: "BlackBeard"; }
 
 h5 {
   font-size: 1.3em;
   margin-bottom: 60px;
-  font-family: "BlackBeard";
-}
+  font-family: "BlackBeard"; }
 
 .small-text {
-  font-size: 0.8em;
-}
+  font-size: 0.8em; }
 
 .big-text {
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 section {
-  margin: 120px 0;
-}
+  margin: 120px 0; }
 
 div.sub-section {
-  margin: 0 0 80px 0;
-}
+  margin: 0 0 80px 0; }
 
 @media (max-width: 768px) {
   body {
     font-size: 14px;
-    line-height: 22px;
-  }
+    line-height: 22px; }
 
   p {
     font-size: 14px;
     margin-bottom: 30px;
-    line-height: 22px;
-  }
+    line-height: 22px; }
 
   h1 {
     font-size: 1.875em;
-    margin-bottom: 45px;
-  }
+    margin-bottom: 45px; }
 
   h2 {
     font-size: 1.65em;
-    margin-bottom: 45px;
-  }
+    margin-bottom: 45px; }
 
   h3 {
     font-size: 1.425em;
-    margin-bottom: 45px;
-  }
+    margin-bottom: 45px; }
 
   h4 {
     font-size: 1.125em;
-    margin-bottom: 45px;
-  }
+    margin-bottom: 45px; }
 
   h5 {
     font-size: 0.975em;
-    margin-bottom: 45px;
-  }
+    margin-bottom: 45px; }
 
   section {
-    margin: 90px 0;
-  }
+    margin: 90px 0; }
 
   div.sub-section {
-    margin: 0 0 60px 0;
-  }
-}
+    margin: 0 0 60px 0; } }
 @media (max-width: 576px) {
   body {
     font-size: 12px;
-    line-height: 20px;
-  }
+    line-height: 20px; }
 
   p {
     font-size: 12px;
     margin-bottom: 20px;
-    line-height: 20px;
-  }
+    line-height: 20px; }
 
   h1 {
     font-size: 1.25em;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   h2 {
     font-size: 1.1em;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   h3 {
     font-size: 0.95em;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   h4 {
     font-size: 0.75em;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   h5 {
     font-size: 0.65em;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 30px; }
 
   section {
-    margin: 60px 0;
-  }
+    margin: 60px 0; }
 
   div.sub-section {
-    margin: 0 0 40px 0;
-  }
-}
+    margin: 0 0 40px 0; } }
 body {
-  background-color: #242325;
-  color: #fff;
-  font-family: "Brandon Grotesque Regular";
-}
-body a {
-  color: #fff;
-  text-decoration: underline;
-  transition: all 0.5s ease;
-}
-body a:hover {
-  color: #fff;
-  text-decoration: none;
-}
+  background-color: #fff;
+  color: #333;
+  font-family: "Brandon Grotesque Regular"; }
+  body a {
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.5s ease; }
+    body a:hover {
+      color: #fff;
+      text-decoration: none; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.side {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.left-side {
+  left: 0; }
+
+.right-side {
+  right: 0; }
+
+.container-fluid {
+  width: 100%;
+  max-width: 1050px; }
 
 header {
   height: 150px;
-}
-header .menu-principal-container #menu-principal li a {
-  font-family: "BlackBeard";
-  font-size: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+  background-image: url("./images/bg_header.png");
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  position: relative;
+  z-index: 2; }
+  header .menu-principal-container #menu-principal li a {
+    font-family: "BlackBeard";
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+#sliderPrincipal {
+  height: calc(100% - 145px);
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  top: -5px;
+  z-index: 1; }
+  #sliderPrincipal .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    #sliderPrincipal .slider .slick-slide h3 {
+      color: #fff;
+      font-size: 74px;
+      line-height: 65px;
+      width: 500px;
+      margin: 0 auto 30px auto; }
+    #sliderPrincipal .slider .slick-slide p {
+      color: #fff;
+      font-size: 40px;
+      line-height: 40px;
+      width: 500px;
+      margin: auto;
+      font-family: "BlackBeard"; }
+    #sliderPrincipal .slider .dashicons-arrow-right-alt2 {
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      transform: translateY(-50%);
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer; }
+    #sliderPrincipal .slider .dashicons-arrow-left-alt2 {
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      transform: translateY(-50%);
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer; }
+    #sliderPrincipal .slider .slick-list {
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center; }
+  #sliderPrincipal video {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%; }
+
+#elMenu {
+  background-color: #151418;
+  background-image: url("./images/bg_menu.png");
+  background-repeat: repeat-y;
+  background-position: center top; }
+  #elMenu .plato-dia-icon {
+    background-image: url("./images/plato_del_dia_icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: auto;
+    width: 142px;
+    height: 91px;
+    margin-bottom: 20px; }
+  #elMenu .plato-dia-content {
+    position: relative;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px; }
+    #elMenu .plato-dia-content .border-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 7px;
+      background-image: url("./images/plato_del_dia_content_border_top.png");
+      background-repeat: repeat-x; }
+    #elMenu .plato-dia-content .border-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background-image: url("./images/plato_del_dia_content_border_bottom.png");
+      background-repeat: repeat-x; }
+    #elMenu .plato-dia-content .border-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+      background-image: url("./images/plato_del_dia_content_border_left.png");
+      background-repeat: repeat-y; }
+    #elMenu .plato-dia-content .border-right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 6px;
+      height: 100%;
+      background-image: url("./images/plato_del_dia_content_border_right.png");
+      background-repeat: repeat-y; }
+    #elMenu .plato-dia-content h3 {
+      font-size: 27px;
+      text-transform: uppercase;
+      display: table;
+      padding: 0 73px;
+      margin: 0 auto 26px auto; }
+      #elMenu .plato-dia-content h3 span {
+        width: 58px;
+        height: 21px; }
+    #elMenu .plato-dia-content .plato-dia-description p {
+      font-size: 24px;
+      line-height: 23px;
+      font-family: "BlackBeard"; }
+      #elMenu .plato-dia-content .plato-dia-description p strong {
+        font-weight: initial;
+        font-size: 31px;
+        line-height: 31px; }
+      #elMenu .plato-dia-content .plato-dia-description p:last-child {
+        margin: 0; }
+  #elMenu .card-menu {
+    margin-bottom: 30px; }
+    #elMenu .card-menu h3 {
+      position: relative;
+      display: table;
+      margin-bottom: 25px; }
+      #elMenu .card-menu h3 span {
+        color: #151418;
+        position: relative;
+        z-index: 2;
+        font-size: 26px;
+        padding: 0 20px;
+        text-transform: uppercase; }
+      #elMenu .card-menu h3::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        transform: rotate(-1deg); }
+      #elMenu .card-menu h3.style_1::after {
+        transform: rotate(2deg); }
+      #elMenu .card-menu h3.style_2::after {
+        transform: rotate(-2deg); }
+      #elMenu .card-menu h3.style_3::after {
+        transform: rotate(1deg); }
+    #elMenu .card-menu .content-menu ul li {
+      color: #fff;
+      font-size: 19px;
+      font-family: "Brandon Grotesque Medium";
+      margin-bottom: 15px;
+      background-image: url("./images/bg_menu_list.png");
+      background-repeat: repeat-x;
+      background-position: left center;
+      position: relative; }
+      #elMenu .card-menu .content-menu ul li strong {
+        background: #151418;
+        padding: 0 0 0 12px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%); }
+      #elMenu .card-menu .content-menu ul li em {
+        font-style: normal;
+        background: #1f1d20;
+        padding: 0 12px 0 0; }
 
 /*# sourceMappingURL=style.css.map */
