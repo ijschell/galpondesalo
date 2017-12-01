@@ -1,8 +1,27 @@
 #elMenu{
     background-color: #151418;
     background-image: url('./images/bg_menu.png');
-    background-repeat: repeat-y;
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: center 300px;
+    position: relative;
+    top: -5px;
+    padding-bottom: 120px;
+    padding-top: 40px;
+    h2{
+      position: relative;
+      display: table;
+      color: #fff;
+      font-size: 62px;
+      line-height: 52px;
+      text-align: center;
+      margin: 0 auto 30px auto;
+      padding: 0 80px;
+      .side{
+        width: 67px;
+        height: 27px;
+        top: 73%;
+      }
+    }
     .plato-dia-icon{
       background-image: url('./images/plato_del_dia_icon.png');
       background-size: cover;
@@ -145,7 +164,7 @@
             }
             em{
               font-style:normal;
-              background: #1f1d20;
+              background: #151418;
               padding: 0 12px 0 0;
             }
           }

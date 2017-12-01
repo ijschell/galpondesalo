@@ -35,9 +35,9 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h2>
-          <span class="side left-side" style="background-image: url('<?php echo get_template_directory_uri()?>/images/plato_del_dia_title_side_left.png');"></span>
+          <span class="side left-side" style="background-image: url('<?php echo get_template_directory_uri()?>/images/menu-title-side-left.png');"></span>
           el<br /> MENÚ
-          <span class="side left-side" style="background-image: url('<?php echo get_template_directory_uri()?>/images/plato_del_dia_title_side_left.png');"></span>
+          <span class="side right-side" style="background-image: url('<?php echo get_template_directory_uri()?>/images/menu-title-side-right.png');"></span>
         </h2>
       </div>
     </div>
@@ -99,7 +99,7 @@
 
         ?>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top: 40px;">
         <!-- print parte de menu here -->
         <?php
         foreach ($menuArray as $key => $value) {

@@ -290,8 +290,25 @@ header {
 #elMenu {
   background-color: #151418;
   background-image: url("./images/bg_menu.png");
-  background-repeat: repeat-y;
-  background-position: center top; }
+  background-repeat: no-repeat;
+  background-position: center 300px;
+  position: relative;
+  top: -5px;
+  padding-bottom: 120px;
+  padding-top: 40px; }
+  #elMenu h2 {
+    position: relative;
+    display: table;
+    color: #fff;
+    font-size: 62px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    padding: 0 80px; }
+    #elMenu h2 .side {
+      width: 67px;
+      height: 27px;
+      top: 73%; }
   #elMenu .plato-dia-icon {
     background-image: url("./images/plato_del_dia_icon.png");
     background-size: cover;
@@ -406,7 +423,168 @@ header {
         transform: translateY(-50%); }
       #elMenu .card-menu .content-menu ul li em {
         font-style: normal;
-        background: #1f1d20;
+        background: #151418;
         padding: 0 12px 0 0; }
+
+#el-lugar {
+  background-color: #151418;
+  position: relative;
+  top: -5px; }
+  #el-lugar h2 {
+    margin: 0 auto 0 auto;
+    display: table;
+    padding: 0 39px 50px 39px;
+    font-size: 51px;
+    line-height: 49px;
+    text-align: center;
+    color: #fff; }
+    #el-lugar h2 .side {
+      width: 85px;
+      height: 23px;
+      top: 21%; }
+  #el-lugar .content-images .image {
+    display: block;
+    float: left;
+    width: calc(100% / 3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #el-lugar .content-images .image::before {
+      content: '';
+      display: block;
+      padding-top: 80%; }
+
+#contacto h2 {
+  color: #151418;
+  position: relative;
+  display: table;
+  margin: 70px auto 50px auto;
+  font-size: 51px;
+  padding: 0 84px; }
+  #contacto h2 .side {
+    width: 68px;
+    height: 36px;
+    top: 57%; }
+#contacto p {
+  color: #0c0c0e;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Brandon Grotesque Medium"; }
+#contacto form label {
+  color: #0c0c0e;
+  font-size: 16px;
+  font-family: "Brandon Grotesque Medium";
+  font-weight: bold; }
+#contacto form div {
+  float: left;
+  margin-right: 20px;
+  width: calc(50% - 10px); }
+  #contacto form div:nth-child(3) {
+    margin-right: 0; }
+  #contacto form div.textarea-content {
+    width: 100%;
+    position: relative;
+    height: 200px; }
+    #contacto form div.textarea-content br {
+      display: none; }
+    #contacto form div.textarea-content textarea {
+      width: 97%;
+      height: 180px;
+      margin: 10px;
+      border: none;
+      background: transparent;
+      font-family: "Brandon Grotesque Medium";
+      font-weight: normal; }
+    #contacto form div.textarea-content span.border-top {
+      top: 0;
+      width: 100%;
+      background-image: url("./images/border-textarea-top.png");
+      background-repeat: repeat-x;
+      height: 3px;
+      position: absolute; }
+    #contacto form div.textarea-content span.border-right {
+      top: 0;
+      width: 3px;
+      right: 0;
+      background-image: url("./images/border-textarea-right.png");
+      background-repeat: repeat-y;
+      height: 100%;
+      position: absolute; }
+    #contacto form div.textarea-content span.border-bottom {
+      bottom: 0;
+      width: 100%;
+      background-image: url("./images/border-form-bottom.png");
+      background-repeat: repeat-x;
+      height: 3px;
+      position: absolute; }
+    #contacto form div.textarea-content span.border-left {
+      top: 0;
+      width: 3px;
+      left: 0;
+      background-image: url("./images/border-textarea-leftt.png");
+      background-repeat: repeat-y;
+      height: 100%;
+      position: absolute; }
+  #contacto form div label {
+    width: 100%; }
+    #contacto form div label span {
+      display: block;
+      width: 100%; }
+  #contacto form div.submit {
+    float: right;
+    width: 80px;
+    margin: -58px 0 0 0; }
+    #contacto form div.submit input {
+      background: #0c0c0e;
+      color: #fff;
+      font-family: "Brandon Grotesque Medium";
+      font-weight: bold;
+      font-size: 16px;
+      width: 80px;
+      height: 35px;
+      border: none; }
+  #contacto form div.wpcf7-response-output {
+    width: 100%;
+    font-family: "Brandon Grotesque Medium"; }
+#contacto form input[type="text"] {
+  background: #fff;
+  border: none;
+  background-image: url("./images/border-form-bottom.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  margin-top: 10px;
+  font-family: "Brandon Grotesque Medium";
+  font-weight: normal;
+  width: 100%; }
+#contacto .cartel-open {
+  margin: 60px auto 40px auto;
+  display: block; }
+#contacto h3 {
+  color: #151418;
+  font-size: 31px;
+  font-family: "BlackBeard";
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 30px; }
+#contacto .post {
+  text-align: center;
+  font-family: "Brandon Grotesque Medium";
+  font-weight: bold;
+  color: #0c0c0e;
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 50px; }
+#contacto .forma {
+  margin: 0 auto 35px auto;
+  display: block; }
+#contacto p.pago {
+  font-family: "Brandon Grotesque Medium";
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px; }
+#contacto img.tarjetas {
+  display: block;
+  margin: 0 auto 80px auto; }
 
 /*# sourceMappingURL=style.css.map */

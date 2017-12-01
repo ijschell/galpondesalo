@@ -28,7 +28,7 @@ function getMenues(){
     array_push($menues, ['title' => $title, 'description' => $description]);
 
   }
-  
+
   return $menues;
 }
 
@@ -86,9 +86,9 @@ function getGalleryPage(){
   $data = get_post(38);
   $gallery = get_field('galeria', $data->ID);
   $images = array_map('intval', explode(",", $gallery));
-
+  
   foreach ($images as $key => $value) {
-    array_push($galleryImages, wp_get_attachment_image_src($value)[0]);
+    array_push($galleryImages, wp_get_attachment_image_src($value, 'large')[0]);
   }
 
   return $galleryImages;

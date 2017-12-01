@@ -1,0 +1,164 @@
+#contacto{
+  h2{
+    color: #151418;
+    position: relative;
+    display: table;
+    margin: 70px auto 50px auto;
+    font-size: 51px;
+    padding: 0 84px;
+    .side{
+      width: 68px;
+      height: 36px;
+      top: 57%;
+    }
+  }
+  p{
+    color: #0c0c0e;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: $fontMedium;
+  }
+  form{
+    label{
+      color: #0c0c0e;
+      font-size: 16px;
+      font-family: $fontMedium;
+      font-weight: bold;
+    }
+    div{
+      float: left;
+      margin-right: 20px;
+      width: calc(50% - 10px);
+      &:nth-child(3){
+        margin-right: 0;
+      }
+      &.textarea-content{
+        width: 100%;
+        // margin-top: 40px;
+        position: relative;
+        height: 200px;
+        br{
+          display: none;
+        }
+        textarea{
+          width: 97%;
+          height: 180px;
+          margin: 10px;
+          border: none;
+          background: transparent;
+          font-family: $fontMedium;
+          font-weight: normal;
+        }
+        span{
+          &.border-top{
+            top: 0;
+            width: 100%;
+            background-image: url('./images/border-textarea-top.png');
+            background-repeat: repeat-x;
+            height: 3px;
+            position: absolute;
+          }
+          &.border-right{
+            top: 0;
+            width: 3px;
+            right: 0;
+            background-image: url('./images/border-textarea-right.png');
+            background-repeat: repeat-y;
+            height: 100%;
+            position: absolute;
+          }
+          &.border-bottom{
+            bottom: 0;
+            width: 100%;
+            background-image: url('./images/border-form-bottom.png');
+            background-repeat: repeat-x;
+            height: 3px;
+            position: absolute;
+          }
+          &.border-left{
+            top: 0;
+            width: 3px;
+            left: 0;
+            background-image: url('./images/border-textarea-leftt.png');
+            background-repeat: repeat-y;
+            height: 100%;
+            position: absolute;
+          }
+        }
+      }
+      label{
+        width: 100%;
+        span{
+          display: block;
+          width: 100%;
+        }
+      }
+      &.submit{
+        float: right;
+        width: 80px;
+        margin: -58px 0 0 0;
+        input{
+          background: #0c0c0e;
+          color: #fff;
+          font-family: $fontMedium;
+          font-weight: bold;
+          font-size: 16px;
+          width: 80px;
+          height: 35px;
+          border: none;
+        }
+      }
+      &.wpcf7-response-output{
+        width: 100%;
+        font-family: $fontMedium;
+      }
+    }
+    input[type="text"]{
+      background: #fff;
+      border: none;
+      background-image: url('./images/border-form-bottom.png');
+      background-repeat: repeat-x;
+      background-position: bottom;
+      margin-top: 10px;
+      font-family: $fontMedium;
+      font-weight: normal;
+      width: 100%;
+    }
+  }
+  .cartel-open{
+    margin: 60px auto 40px auto;
+    display: block;
+  }
+  h3{
+    color: #151418;
+    font-size: 31px;
+    font-family: $fontBlackBeard;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+  }
+  .post{
+    text-align: center;
+    font-family: $fontMedium;
+    font-weight: bold;
+    color: #0c0c0e;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 50px;
+  }
+  .forma{
+    margin: 0 auto 35px auto;
+    display: block;
+  }
+  p.pago{
+    font-family: $fontMedium;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  img.tarjetas{
+    display: block;
+    margin: 0 auto 80px auto;
+  }
+}
