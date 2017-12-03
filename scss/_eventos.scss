@@ -1,0 +1,53 @@
+#eventos{
+  height: 509px;
+  .left-side{
+    position: relative;
+    width: 50%;
+    float: left;
+    min-height: 509px;
+    background-color: #151418;
+    background-image: url('./images/bg_menu.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    .centere-v{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+    h2{
+      font-family: $fontBlackBeard;
+      font-size: 51px;
+      text-align: center;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .content{
+      color: #fff;
+      font-family: $fontMedium;
+      font-weight: bold;
+      text-align: center;
+      font-size: 19px;
+      line-height: 34px;
+      display: block;
+      max-width: 70%;
+      margin: auto;
+      p{
+        font-family: $fontMedium;
+        font-weight: bold;
+        text-align: center;
+        font-size: 19px;
+        line-height: 34px;
+        margin: 0;
+      }
+    }
+  }
+  .right-side{
+    width: 50%;
+    float: right;
+    min-height: 509px;
+    background-position: center;
+    background-size: cover;
+  }
+}

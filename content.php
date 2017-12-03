@@ -1,14 +1,14 @@
 <!-- slider -->
-<?php include_once('slider_principal.php') ?>
+<?php include_once(get_template_directory().'/sections/slider_principal.php') ?>
 <!-- Menú -->
-<?php include_once('menu.php') ?>
+<?php include_once(get_template_directory().'/sections/menu.php') ?>
 <!-- el lugar -->
-<?php include_once('el-lugar.php') ?>
+<?php include_once(get_template_directory().'/sections/el-lugar.php') ?>
 <!-- contacto -->
-<?php include_once('contacto.php') ?>
-<!-- <div class="sub-section">
-  <h1>Título H1</h1>
-  <p>Párrafo con <a href="#">link</a></p>
-  <p class="big-text">Párrafo big text</p>
-  <p class="small-text">Párrafo small text</p>
-</div> -->
+<?php include_once(get_template_directory().'/sections/contacto.php') ?>
+<!-- eventos -->
+<?php include_once(get_template_directory().'/sections/eventos.php') ?>
+<!-- slider bottom -->
+<?php include_once(get_template_directory().'/sections/slider_bottom.php') ?>
+<!-- mapa -->
+<?php include_once(get_template_directory().'/sections/mapa.php') ?>

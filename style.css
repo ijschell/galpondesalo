@@ -220,6 +220,10 @@ body {
   width: 100%;
   max-width: 1050px; }
 
+#map {
+  width: 100%;
+  height: 500px; }
+
 header {
   height: 150px;
   background-image: url("./images/bg_header.png");
@@ -586,5 +590,127 @@ header {
 #contacto img.tarjetas {
   display: block;
   margin: 0 auto 80px auto; }
+
+#eventos {
+  height: 509px; }
+  #eventos .left-side {
+    position: relative;
+    width: 50%;
+    float: left;
+    min-height: 509px;
+    background-color: #151418;
+    background-image: url("./images/bg_menu.png");
+    background-repeat: no-repeat;
+    background-position: center top; }
+    #eventos .left-side .centere-v {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%); }
+    #eventos .left-side h2 {
+      font-family: "BlackBeard";
+      font-size: 51px;
+      text-align: center;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      color: #fff; }
+    #eventos .left-side .content {
+      color: #fff;
+      font-family: "Brandon Grotesque Medium";
+      font-weight: bold;
+      text-align: center;
+      font-size: 19px;
+      line-height: 34px;
+      display: block;
+      max-width: 70%;
+      margin: auto; }
+      #eventos .left-side .content p {
+        font-family: "Brandon Grotesque Medium";
+        font-weight: bold;
+        text-align: center;
+        font-size: 19px;
+        line-height: 34px;
+        margin: 0; }
+  #eventos .right-side {
+    width: 50%;
+    float: right;
+    min-height: 509px;
+    background-position: center;
+    background-size: cover; }
+
+#sliderBottom .slick-slide {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #sliderBottom .slick-slide .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+    #sliderBottom .slick-slide .overlay .icon {
+      display: block;
+      margin: 0 auto 20px auto; }
+    #sliderBottom .slick-slide .overlay h3 {
+      display: table;
+      margin: 0 auto 20px auto;
+      color: #fff;
+      font-family: "Brandon Grotesque Medium";
+      font-size: 28px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      max-width: 480px;
+      width: 100%;
+      margin: auto;
+      text-align: center; }
+    #sliderBottom .slick-slide .overlay .content {
+      max-width: 600px;
+      width: 100%;
+      margin: auto; }
+      #sliderBottom .slick-slide .overlay .content p {
+        color: #fff;
+        font-family: "Brandon Grotesque Light";
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        text-align: center; }
+        #sliderBottom .slick-slide .overlay .content p:last-child {
+          margin: 0; }
+    #sliderBottom .slick-slide .overlay .center-v {
+      position: absolute;
+      top: 50%;
+      display: table;
+      width: 100%;
+      transform: translateY(-50%); }
+#sliderBottom .slick-dots {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%); }
+  #sliderBottom .slick-dots li {
+    width: 15px;
+    height: 15px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 5px 0; }
+    #sliderBottom .slick-dots li button {
+      display: block;
+      opacity: 0;
+      width: 9px;
+      height: 9px;
+      color: transparent;
+      border: none;
+      border-radius: 50%;
+      position: absolute;
+      margin: 1px;
+      padding: 0;
+      background-color: #fff;
+      transition: all 0.5s ease; }
+    #sliderBottom .slick-dots li.slick-active button {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
