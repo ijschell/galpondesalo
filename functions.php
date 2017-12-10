@@ -5,6 +5,12 @@
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 
+//get menu principal
+function getMenuPrincipal(){
+  // return wp_get_nav_menu_items('Principal');
+  return wp_nav_menu(array('menu' => 'Principal'));
+}
+
 // get el menu pages
 function getMenues(){
   $menues = array();
@@ -86,7 +92,7 @@ function getGalleryPage(){
   $data = get_post(38);
   $gallery = get_field('galeria', $data->ID);
   $images = array_map('intval', explode(",", $gallery));
-  
+
   foreach ($images as $key => $value) {
     array_push($galleryImages, wp_get_attachment_image_src($value, 'large')[0]);
   }

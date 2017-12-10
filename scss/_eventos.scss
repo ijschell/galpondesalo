@@ -9,6 +9,10 @@
     background-image: url('./images/bg_menu.png');
     background-repeat: no-repeat;
     background-position: center top;
+    @media(max-width: 525px){
+      width: 100%;
+      float: initial;
+    }
     .centere-v{
         position: absolute;
         top: 50%;
@@ -49,5 +53,9 @@
     min-height: 509px;
     background-position: center;
     background-size: cover;
+    @media(max-width: 525px){
+      width: 100%;
+      float: initial;
+    }
   }
 }

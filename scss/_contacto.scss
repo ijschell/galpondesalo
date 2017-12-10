@@ -6,6 +6,9 @@
     margin: 70px auto 50px auto;
     font-size: 51px;
     padding: 0 84px;
+    @media(max-width: 525px){
+      font-size: 30px;
+    }
     .side{
       width: 68px;
       height: 36px;
@@ -97,6 +100,9 @@
         float: right;
         width: 80px;
         margin: -58px 0 0 0;
+        @media(max-width: 525px){
+            margin: -36px 0 0 0;
+        }
         input{
           background: #0c0c0e;
           color: #fff;
@@ -145,6 +151,7 @@
     font-size: 15px;
     line-height: 27px;
     margin-bottom: 50px;
+    text-transform: uppercase;
   }
   .forma{
     margin: 0 auto 35px auto;

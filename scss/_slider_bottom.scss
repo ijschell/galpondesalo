@@ -59,6 +59,9 @@
     top: 50%;
     right: 40px;
     transform: translateY(-50%);
+    @media(max-width: 525px){
+      display: none;
+    }
     li{
       width: 15px;
       height: 15px;

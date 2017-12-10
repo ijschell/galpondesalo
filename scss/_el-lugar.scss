@@ -10,6 +10,10 @@
     line-height: 49px;
     text-align: center;
     color: #fff;
+    @media(max-width: 525px){
+      font-size: 45px;
+      line-height: 42px;
+    }
     .side{
       width: 85px;
       height: 23px;
@@ -24,6 +28,9 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      @media(max-width: 525px){
+        width: 100%;
+      }
       &::before{
         content: '';
         display: block;
